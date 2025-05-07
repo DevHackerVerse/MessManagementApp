@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="120dp"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/dayNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monday"
+            android:textStyle="bold"
+            android:textColor="@color/textPrimary"
+            android:textSize="14sp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apr 12"
+            android:textColor="@color/textSecondary"
+            android:textSize="12sp"
+            android:gravity="center" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/dividerColor"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Breakfast"
+            android:textSize="10sp"
+            android:textColor="@color/textSecondary" />
+
+        <TextView
+            android:id="@+id/breakfastTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Idli Sambar"
+            android:textSize="11sp"
+            android:textColor="@color/textPrimary"
+            android:maxLines="1"
+            android:ellipsize="end" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lunch"
+            android:textSize="10sp"
+            android:textColor="@color/textSecondary"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/lunchTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rice, Dal, Roti"
+            android:textSize="11sp"
+            android:textColor="@color/textPrimary"
+            android:maxLines="1"
+            android:ellipsize="end" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dinner"
+            android:textSize="10sp"
+            android:textColor="@color/textSecondary"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/dinnerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pulao, Curry"
+            android:textSize="11sp"
+            android:textColor="@color/textPrimary"
+            android:maxLines="1"
+            android:ellipsize="end" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

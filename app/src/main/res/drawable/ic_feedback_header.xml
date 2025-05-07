@@ -1,0 +1,59 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background gradient -->
+    <defs>
+        <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#EC4899" stop-opacity="0.8"/>
+            <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.9"/>
+        </linearGradient>
+        <pattern id="pattern-circles" width="30" height="30" patternUnits="userSpaceOnUse">
+            <circle cx="10" cy="10" r="2" fill="white" fill-opacity="0.2"/>
+        </pattern>
+    </defs>
+
+    <!-- Base background -->
+    <rect width="800" height="300" fill="url(#headerGradient)"/>
+
+    <!-- Pattern overlay -->
+    <rect width="800" height="300" fill="url(#pattern-circles)"/>
+
+    <!-- Abstract shapes -->
+    <circle cx="650" cy="50" r="100" fill="#FFF" fill-opacity="0.1"/>
+    <circle cx="700" cy="180" r="70" fill="#FFF" fill-opacity="0.1"/>
+    <circle cx="100" cy="220" r="120" fill="#FFF" fill-opacity="0.1"/>
+
+    <!-- Feedback message bubbles illustration -->
+    <!-- Message bubble 1 -->
+    <rect x="250" y="70" width="180" height="80" rx="20" fill="white" fill-opacity="0.2"/>
+    <rect x="270" y="90" width="140" height="10" rx="5" fill="white" fill-opacity="0.4"/>
+    <rect x="270" y="110" width="90" height="10" rx="5" fill="white" fill-opacity="0.4"/>
+
+    <!-- Message bubble 2 -->
+    <rect x="300" y="170" width="150" height="70" rx="20" fill="white" fill-opacity="0.15"/>
+    <rect x="320" y="190" width="110" height="10" rx="5" fill="white" fill-opacity="0.3"/>
+    <rect x="320" y="210" width="70" height="10" rx="5" fill="white" fill-opacity="0.3"/>
+
+    <!-- Star ratings -->
+    <g transform="translate(500, 100)">
+        <polygon points="0,0 8,0 10,5 12,0 20,0 13,8 16,16 10,12 4,16 7,8" fill="white" fill-opacity="0.7"/>
+    </g>
+    <g transform="translate(530, 100)">
+        <polygon points="0,0 8,0 10,5 12,0 20,0 13,8 16,16 10,12 4,16 7,8" fill="white" fill-opacity="0.7"/>
+    </g>
+    <g transform="translate(560, 100)">
+        <polygon points="0,0 8,0 10,5 12,0 20,0 13,8 16,16 10,12 4,16 7,8" fill="white" fill-opacity="0.7"/>
+    </g>
+    <g transform="translate(590, 100)">
+        <polygon points="0,0 8,0 10,5 12,0 20,0 13,8 16,16 10,12 4,16 7,8" fill="white" fill-opacity="0.5"/>
+    </g>
+    <g transform="translate(620, 100)">
+        <polygon points="0,0 8,0 10,5 12,0 20,0 13,8 16,16 10,12 4,16 7,8" fill="white" fill-opacity="0.3"/>
+    </g>
+
+    <!-- Decorative dots -->
+    <circle cx="50" cy="50" r="3" fill="white" fill-opacity="0.5"/>
+    <circle cx="70" cy="40" r="2" fill="white" fill-opacity="0.5"/>
+    <circle cx="40" cy="70" r="4" fill="white" fill-opacity="0.5"/>
+    <circle cx="750" cy="250" r="3" fill="white" fill-opacity="0.5"/>
+    <circle cx="730" cy="270" r="2" fill="white" fill-opacity="0.5"/>
+    <circle cx="770" cy="230" r="4" fill="white" fill-opacity="0.5"/>
+</svg>
